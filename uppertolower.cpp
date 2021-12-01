@@ -16,7 +16,10 @@ int main()
 		}
 		else
 		{
-			str[i]=str[i]+32;
+			if(str[i]<=90 && str[i]>=65)
+			{
+				str[i]=str[i]+32;
+			}
 		}
 	}
 
